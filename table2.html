@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./table2style.css" />
+    <title>Second Table Task</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th rowspan="3">day</th>
+        <th colspan="3">seminar</th>
+      </tr>
+      <tr>
+        <th colspan="2">schedule</th>
+        <th rowspan="2">topic</th>
+      </tr>
+      <tr>
+        <th>begin</th>
+        <th>end</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2" class="monday-begin">8:00 a.m.</td>
+        <td rowspan="2" class="monday-end">5:00 p.m</td>
+        <td>Introduction to XML</td>
+      </tr>
+      <tr>
+        <td>Validity: DTD and Relax NG</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Tuesday</td>
+        <td class="tuesday-begin-first">8:00 a.m</td>
+        <td class="tuesday-end-first">11:00 a.m</td>
+        <td>XPath</td>
+      </tr>
+      <tr>
+        <td class="tuesday-begin-second">11:00 a.m.</td>
+        <td class="tuesday-end-second">2:00 p.m.</td>
+        <td rowspan="2">XSL Transformatics</td>
+      </tr>
+      <tr>
+        <td class="tuesday-begin-third">2:00 p.m.</td>
+        <td class="tuesday-end-third">5:00 p.m.</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td class="wendsday-begin">8:00 a.m.</td>
+        <td class="wendsday-end">12:00 p.m.</td>
+        <td>XSL Formating Objects</td>
+      </tr>
+    </table>
+  </body>
+</html>

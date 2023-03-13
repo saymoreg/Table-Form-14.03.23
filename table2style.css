@@ -1,0 +1,46 @@
+*{
+    border: 1px solid black;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.monday-begin{
+    background-color:orange;
+}
+
+.monday-end{
+    background-color:blue;
+}
+
+.tuesday-begin-first{
+    background-color: orange;
+}
+
+.tuesday-end-first{
+    background-color:orange;
+}
+
+.tuesday-begin-second{
+    background-color:orange;
+}
+
+.tuesday-end-second{
+    background-color:green;
+}
+
+.tuesday-begin-third{
+    background-color:green;
+}
+
+.tuesday-end-third{
+    background-color:blue;
+}
+
+.wendsday-begin{
+    background-color:orange;
+}
+
+.wendsday-end{
+    background-color:green;
+}
+
